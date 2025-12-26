@@ -70,7 +70,6 @@ const App = () => {
         </div>
       </header>
 
-      {/* --- FEATURE BREAKDOWN --- */}
       <section id="features" className="py-32 bg-black relative">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-20">

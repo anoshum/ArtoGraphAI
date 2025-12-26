@@ -1,6 +1,11 @@
 import React from 'react'
 import { useState } from 'react';
-
+import { 
+  Palette, Search, Upload, Gavel, Calendar, User, Menu, X, 
+  ArrowRight, Sparkles, Heart, MessageCircle, Share2, ShieldCheck, 
+  Clock, TrendingUp, Mail, MapPin, Phone, Github, Twitter, Instagram,
+  Layers, Zap, Coins, History, BarChart3, Globe
+} from 'lucide-react';
 
 function header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,7 +20,7 @@ function header() {
               <div className="p-2 bg-gradient-to-br from-purple-600 to-blue-500 rounded-lg group-hover:rotate-12 transition-transform duration-300">
                 <Palette size={24} className="text-white" />
               </div>
-              <span className="text-2xl font-bold tracking-tighter">
+              <span className="text-2xl font-bold tracking-tighter text-white">
                 ArtoGraph<span className="text-purple-500 underline decoration-2 underline-offset-4">AI</span>
               </span>
             </div>
@@ -44,12 +49,7 @@ function header() {
     </div>
   )
 }
-import { 
-  Palette, Search, Upload, Gavel, Calendar, User, Menu, X, 
-  ArrowRight, Sparkles, Heart, MessageCircle, Share2, ShieldCheck, 
-  Clock, TrendingUp, Mail, MapPin, Phone, Github, Twitter, Instagram,
-  Layers, Zap, Coins, History, BarChart3, Globe
-} from 'lucide-react';
+
 
 export default header
 
