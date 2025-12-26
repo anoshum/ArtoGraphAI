@@ -1,17 +1,16 @@
 import { useState } from 'react'
 import './App.css'
-import Right from './compo/Right'
-import Left from './compo/Left'
-import Below from './compo/Below'
+import { Outlet } from 'react-router-dom'
+import Header from '../components/Header/header'
+import Footer from '../components/Footer/Footer'
 function App() {
 
   return (
-    <><div className='grid grid-cols-3'>
-        <Left ></Left>
-        <Right></Right>
-      </div>
-      <Below></Below>
-    
+    <>
+      <Header/>
+      <Outlet />
+      <Footer/>
+
     </>
   )
 } 
