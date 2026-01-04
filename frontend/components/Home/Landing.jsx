@@ -52,7 +52,7 @@ const App = () => {
           </div>
           <h1 className="text-6xl md:text-[100px] font-black mb-8 leading-[0.9] tracking-tight">
             OWN THE ART, <br />
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-blue-400 to-indigo-400 underline decoration-white/20">PROTECT THE LEGACY.</span>
+            <span className="bg-clip-text text-transparent bg-linear-to-r from-purple-400 via-blue-400 to-indigo-400 underline decoration-white/20">PROTECT THE LEGACY.</span>
           </h1>
           <p className="max-w-3xl mx-auto text-gray-400 text-lg md:text-2xl mb-12 leading-relaxed font-light">
             A next-generation ecosystem for artists and collectors. Appraise with <span className="text-white">Gemini AI</span>, 
@@ -80,7 +80,7 @@ const App = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {features.map((f, i) => (
-              <div key={i} className="p-8 bg-white/5 border border-white/10 rounded-3xl hover:bg-white/[0.08] hover:-translate-y-2 transition-all cursor-default group">
+              <div key={i} className="p-8 bg-white/5 border border-white/10 rounded-3xl hover:bg-white/8 hover:-translate-y-2 transition-all cursor-default group">
                 <div className="mb-6 p-4 bg-black rounded-2xl w-fit group-hover:scale-110 transition-transform">{f.icon}</div>
                 <h3 className="text-2xl font-bold mb-4">{f.title}</h3>
                 <p className="text-gray-400 leading-relaxed text-sm">{f.description}</p>
@@ -91,7 +91,7 @@ const App = () => {
       </section>
 
       {/* --- CONDITIONAL AUCTION SECTION --- */}
-      <section id="auctions" className="py-32 border-y border-white/10 bg-gradient-to-b from-transparent via-purple-900/5 to-transparent">
+      <section id="auctions" className="py-32 border-y border-white/10 bg-linear-to-b from-transparent via-purple-900/5 to-transparent">
         <div className="max-w-7xl mx-auto px-4">
           {isLoggedIn ? (
             <div>
@@ -159,7 +159,7 @@ const App = () => {
               ))}
             </div>
             <div className="relative">
-              <div className="bg-gradient-to-br from-purple-600/20 to-blue-600/20 rounded-[40px] border border-white/10 p-8 aspect-square flex items-center justify-center">
+              <div className="bg-linear-to-br from-purple-600/20 to-blue-600/20 rounded-[40px] border border-white/10 p-8 aspect-square flex items-center justify-center">
                 <div className="text-center animate-bounce">
                   <Palette size={120} className="text-white/20 mb-4 mx-auto" />
                   <p className="font-bold text-gray-500 italic tracking-[10px]">CREATIVE FLOW</p>
