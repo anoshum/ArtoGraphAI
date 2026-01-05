@@ -6,6 +6,7 @@ import {
   Clock, TrendingUp, Mail, MapPin, Phone, Github, Twitter, Instagram,
   Layers, Zap, Coins, History, BarChart3, Globe
 } from 'lucide-react';
+import { NavLink } from 'react-router-dom';
 
 function header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,7 +28,7 @@ function header() {
 
             <div className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-300">
               <a href="#features" className="hover:text-white transition-colors">Features</a>
-              <a href="#how-it-works" className="hover:text-white transition-colors">Process</a>
+              <NavLink className="hover:text-white transition-colors" to= "/about">About</NavLink>
               <a href="#royalties" className="hover:text-white transition-colors">Royalties</a>
               <a href="#contact" className="hover:text-white transition-colors">Contact</a>
               <button 
