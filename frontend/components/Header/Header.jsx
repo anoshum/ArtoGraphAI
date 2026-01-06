@@ -30,12 +30,15 @@ function header() {
               <a href="#how-it-works" className="hover:text-white transition-colors">Process</a>
               <a href="#royalties" className="hover:text-white transition-colors">Royalties</a>
               <a href="#contact" className="hover:text-white transition-colors">Contact</a>
+              <a href="register" className="hover:text-white transition-colors">
+             
               <button 
                 onClick={() => setIsLoggedIn(true)}
                 className="bg-gradient-to-r from-purple-600 to-blue-600 hover:scale-105 px-6 py-2 rounded-full font-semibold transition-all"
               >
-                {isLoggedIn ? "Dashboard" : "Login / Signup"}
+                Login / Signup
               </button>
+              </a>
             </div>
 
             <div className="md:hidden">

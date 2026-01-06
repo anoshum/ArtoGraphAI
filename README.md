@@ -1,14 +1,12 @@
-# 🎨 ArtoGraph AI ✨  
+# ArtoGraph ✨  
 ## The Future of Fair-Trade Art  
 ### Empowering Creators through AI and Automated Royalties
 
-**ArtoGraph AI** is a next-generation ecosystem for artists and collectors, built for **GDG TechSprint 2025**.  
+**ArtoGraph** is an  ecosystem for artists and collectors, built for **GDG TechSprint 2025**.  
 By leveraging the power of **Google Gemini**, **Google Pay**, and **Firebase**, we bridge the gap between traditional art commerce and the modern creative economy.
 
 ---
-
-## 🚀 Problem Statement
-
+## Problem Statement
 Independent artists face critical hurdles in the digital age:
 
 - **Secondary Market Loss**  
@@ -23,38 +21,7 @@ Independent artists face critical hurdles in the digital age:
 - **Provenance Tracking**  
   Verifying the *Chain of Ownership* is difficult and prone to fraud.
 
----
-
-## 💡 The Solution
-
-**ArtoGraph AI** provides an end-to-end marketplace where art is not just sold — it is **protected**.
-
-- **AI-Powered Onboarding**  
-  Instant appraisal and storytelling using multimodal AI.
-
-- **Automated Fair-Trade**  
-  The first platform to automate secondary resale royalties via **Google Pay**.
-
-- **Deep Google Integration**  
-  Direct scheduling into collectors’ daily lives using **Google Calendar Smart Invites**.
-
----
-
-## 🛠️ Google Technology Stack (Mandatory Requirements)
-
-This project proudly integrates the following **Google technologies** to solve complex real-world problems:
-
-| Technology | Implementation in ArtoGraph AI |
-|----------|--------------------------------|
-| **Google Gemini (AI)** | Multimodal analysis of artwork images to suggest starting bids and generate professional descriptions |
-| **Firebase (Firestore)** | Powers the real-time bidding engine and maintains the immutable **Provenance Ledger** |
-| **Google Pay (GPay)** | Handles secure transactions and automated **Royalty Split** logic for secondary sales |
-| **Google Calendar** | Automates **Smart Invites** with deep-links so bidders never miss an auction |
-| **Firebase Auth** | Seamless and secure Google One-Tap authentication |
-
----
-
-## ✨ Key Features
+## Key Features
 
 - **AI Art Appraiser**  
   Upload a photo and let Gemini suggest a price based on style, complexity, and detail.
@@ -70,31 +37,23 @@ This project proudly integrates the following **Google technologies** to solve c
 
 - **Category Discovery**  
   AI-driven semantic search to discover art that matches your personal *vibe*.
-
 ---
-
-## 💻 Tech Stack
-
+## Tech Stack
 ### Frontend
 - React.js  
 - Tailwind CSS  
-- Framer Motion (Animations)
-
 ### Backend
 - Firebase Cloud Functions (Node.js)
-
 ### Database
 - Cloud Firestore (Real-time)
-
 ### Storage
-- Firebase Storage (High-resolution art assets)
-
+- NodeJS Backend File Storage. 
 ### UI & Icons
 - Lucide-React
 
 ---
 
-## 🏃‍♂️ Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -133,7 +92,7 @@ npm start
 
 ---
 
-## 📈 Future Scalability
+## Future Scalability
 
 - **AR Gallery Mode**  
   Visualize artwork on your physical walls before bidding using **ARCore**.
@@ -146,7 +105,7 @@ npm start
 
 ---
 
-## 👥 The Team
+## The Team
 
 - **Developer 1:** [Anshu Raj]  
 - **Developer 2:** [Aditya Narayan Sharma]  
@@ -154,22 +113,3 @@ npm start
 - **Developer 4:** [Kanak Mohan Jee]
 
 ---
-
-## 📜 Solution Description (100 Words)
-
-ArtoGraph AI is a revolutionary marketplace empowering independent artists through AI and automated fair-trade logic. Built with React and Firebase, it features a multimodal AI powered by Google Gemini that appraises artwork and generates professional narratives to boost sales. The platform solves the secondary market gap by integrating Google Pay with automated resale royalties, ensuring original creators receive a percentage of every future sale. With Google Calendar Smart Invites and deep-linked auction rooms, ArtoGraph maximizes collector engagement and creates a transparent, lifelong ownership history for every masterpiece—transforming how art is valued and traded.
-
----
-
-## ❤️ Built with passion for **GDG TechSprint 2025**
-```
-
----
-
-If you want next:
-- 📊 **System architecture diagram**
-- 🎤 **Pitch deck (Problem → Solution → Tech → Impact)**
-- 🧑‍⚖️ **Judge-aligned submission explanation**
-- 🌐 **Live demo README badges**
-
-Just say the word.
