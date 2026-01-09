@@ -8,8 +8,9 @@ import AboutPage from '../components/About/About'
 import DiscoveryFeed from '../components/Discovery/Discovery'
 import AuctionRoom from '../components/AuctionRoom/Auctionroom.jsx'
 import Uploadform from '../components/Dashboard/Uploadform.jsx'
-
 import Register from '../components/Home/Register.jsx'
+import AuthPage from '../components/Autho/Autho.jsx'
+import Dashboard from '../components/Dashboard/Dashboard.jsx'
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App />} >
@@ -18,7 +19,9 @@ const router = createBrowserRouter(
       <Route path="discovery" element={<DiscoveryFeed />} />
       <Route path="auctionroom" element={< AuctionRoom />} />
       <Route path='uploadform' element={< Uploadform />}/>
+      <Route path='Dashboard' element={< Dashboard />}/>
       <Route path='register' element={<Register />} />
+      <Route path='autho' element={<AuthPage />}/>
     </Route>
   )
 )
