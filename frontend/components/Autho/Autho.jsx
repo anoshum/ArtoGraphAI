@@ -60,7 +60,7 @@ const handleAuth = async (e) => {
 const handleGoogleAuth = async () => {
   try {
     await signInWithPopup(auth, googleProvider);
-    navigate("/discovery"); // 🌍 REDIRECT HERE
+    navigate("/discovery");
   } catch (error) {
     alert(error.message);
   }

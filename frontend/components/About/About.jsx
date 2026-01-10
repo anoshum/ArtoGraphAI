@@ -70,7 +70,7 @@ const AboutPage = () => {
 
   return (
     <div className="min-h-screen bg-black text-white">
-
+      
       {/* HEADER */}
       <header className="pt-32 pb-16 text-center">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-purple-500/30 bg-purple-500/10 text-purple-400 text-xs font-bold mb-6">

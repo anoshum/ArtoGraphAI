@@ -31,15 +31,11 @@ function header() {
               <NavLink className="hover:text-white transition-colors" to= "/about">About</NavLink>
               <a href="#royalties" className="hover:text-white transition-colors">Royalties</a>
               <a href="#contact" className="hover:text-white transition-colors">Contact</a>
-              <a href="register" className="hover:text-white transition-colors">
-             
-              <button 
-                onClick={() => setIsLoggedIn(true)}
-                className="bg-gradient-to-r from-purple-600 to-blue-600 hover:scale-105 px-6 py-2 rounded-full font-semibold transition-all"
-              >
-                Login / Signup
-              </button>
-              </a>
+             <NavLink 
+              onClick={() => setIsLoggedIn(true)}
+              className="bg-gradient-to-r hover:text-white transition-colors from-purple-600 to-blue-600 hover:scale-105 px-6 py-2 rounded-full font-semibold transition-all" to= "/autho">Login/SignUp</NavLink>
+          
+            
             </div>
 
             <div className="md:hidden">
