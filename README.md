@@ -109,7 +109,5 @@ npm start
 
 - **Developer 1:** [Anshu Raj]  
 - **Developer 2:** [Aditya Narayan Sharma]  
-- **Developer 3:** [Anish]  
-- **Developer 4:** [Kanak Mohan Jee]
 
 ---
