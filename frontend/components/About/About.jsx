@@ -5,7 +5,6 @@ import {
 
 const AboutPage = () => {
   const teamName = "Team Innovators";
-
   const [users, setUsers] = useState({
     user1: null,
     user2: null
@@ -44,7 +43,7 @@ const AboutPage = () => {
       githubId: users.user2.login,
       profilePic: users.user2.avatar_url
     }
-  ].filter(Boolean); // removes nulls while loading
+  ].filter(Boolean);
 
   const coreFeatures = [
     {
@@ -103,7 +102,7 @@ const AboutPage = () => {
       <section className="py-12 max-w-7xl mx-auto px-6">
         <h2 className="text-3xl font-black italic mb-10">The Developers.</h2>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid sm:grid-cols-4 lg:grid-cols-2">
           {teamMembers.map((member, i) => (
             <div key={i} className="bg-zinc-900/50 p-8 rounded-3xl text-center">
               <img
